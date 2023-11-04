@@ -1,0 +1,23 @@
+# Commit some
+I prelude1.inc
+> branch newBranch
+<<<
++ wug.txt c.txt
++ a.txt a.txt
+> add a.txt
+<<<
+> commit "Made an a.txt"
+<<<
+E wug.txt
+E a.txt
+> checkout newBranch
+There is an untracked file in the way; delete it, or add and commit it first.
+<<<
+> add wug.txt
+<<<
+> commit "brand new file called wug"
+<<<
+> checkout newBranch
+<<<
+
+

@@ -1,0 +1,18 @@
+# Merge ancestor
+I prelude1.inc
+> branch branchToMerge
+<<<
++ wug3000.txt c.txt
++ c.txt a.txt
+> add wug3000
+File does not exist.
+<<<
+> add wug3000.txt
+<<<
+> commit "Made a wug3000.txt and saved it but forgot about c.txt"
+<<<
+E wug3000.txt
+E c.txt
+> merge branchToMerge
+Given branch is an ancestor of the current branch.
+<<<
